@@ -210,4 +210,4 @@ static Button buttons[] = {
 };
 
 /* #define HOMEPAGE "https://searx.thegpm.org/" */
-#define HOMEPAGE "~/.config/surf/startpage.html"
+#define HOMEPAGE "~/.config/surf/sp.html"
