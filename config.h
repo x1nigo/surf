@@ -8,7 +8,7 @@ static char *cachedir       = "~/.config/surf/cache/";
 static char *cookiefile     = "~/.config/surf/cookies.txt";
 static char *dlstatus       = "~/.config/surf/dlstatus/";
 static char *dldir          = "~/Downloads/";
-static char *searchurl      = "https://www.google.com/search?q=";
+static char *searchurl      = "https://www.google.com/search?q=%s";
 
 /* Webkit default features */
 /* Highest priority value will be used.
@@ -209,4 +209,5 @@ static Button buttons[] = {
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
 
-#define HOMEPAGE "https://searx.thegpm.org/"
+/* #define HOMEPAGE "https://searx.thegpm.org/" */
+#define HOMEPAGE "~/.config/surf/startpage.html"
